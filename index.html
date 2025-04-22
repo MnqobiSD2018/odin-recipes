@@ -1,15 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <link rel="stylesheets" href="style.css">
         <meta charset="UTF-8">
-        <title>Odin Recipe</title>
+        <title>My Site</title>
+
+        <style>
+            body {
+                background-color: lightgrey;
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+            }
+            .header {
+                display: flex; 
+                align-items: center; 
+                justify-content: space-between;
+                height: 100px;
+                background-color: darkgrey;
+                margin-bottom: 20px;
+            }
+
+            h1 {
+                color: white;
+            }
+
+            .Logo {
+                display: flex; 
+                align-items: center;
+            }
+
+            .Links {
+                display: flex;
+            }
+
+            p {
+                padding: 5px;
+            }
+            a {
+                text-decoration: none;
+                color: white;
+            }
+
+            .Sub {
+                display: flex;
+                align-self: center;
+                justify-content: center;
+            }
+
+            .Main {
+                display: block;
+                align-content: center;
+            }
+
+
+        </style>
     </head>
     <body>
-        <h1>Odin Recipes</h1>
-        <ul>
-            <li><a href="recipes/Roasted-New-Red-Potatoes.html">Roasted New Red Potatoes</a></li>
-            <li><a href="recipes/lasagna.html">Lasagna</a></li>
-            <li><a href="recipes/Lamb-Souvlaki.html">Lamb Souvlaki</a></li>
-        </ul>
+        <div class="Main">
+            <div class= "header">
+                <div class="Logo">
+                    <img src="https://www.theodinproject.com/mstile-310x310.png" alt="The odin project logo" style="width: 80px; height: auto;">
+                    <h1>Homepage</h1>
+                </div>
+                <div class="Links">
+                    <p>
+                        <a href="https://www.theodinproject.com/about">About the Odin Project</a>
+                    </p>
+                    <p>
+                        <a href="https://www.theodinproject.com/about" target="_blank" rel="noopener noreferrer">About the Odin Project(New Tab)</a>
+                    <p><a href="pages/about.html">About</a></p>
+                    </p>
+                </div>
+                
+            </div>
+    
+            <div class="Sub">
+                <img src="images/dog.jpg" alt="a dog image">
+            </div>
+            
+        </div>
+        
+        
     </body>
 </html>
